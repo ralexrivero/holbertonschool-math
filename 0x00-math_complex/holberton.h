@@ -2,8 +2,15 @@
 #define HBTN_H
 #include <stdio.h>
 #include <math.h>
+#include <stdarg.h>
 
-typedef struct
+/**
+ * struct complex_number - structure for two doubles real and imaginary
+ * @re: doble, real number
+ * @im: doble, imaginary number
+ */
+
+typedef struct complex_number
 {
 	double re;
 	double im;
@@ -17,6 +24,6 @@ void addition(complex c1, complex c2, complex *c3);
 void substraction(complex c1, complex c2, complex *c3);
 void multiplication(complex c1, complex c2, complex *c3);
 void division(complex c1, complex c2, complex *c3);
-void complex_from_mod_arg (double m, double arg, complex *c3);
+void complex_from_mod_arg(double m, double arg, complex *c3);
 
 #endif
