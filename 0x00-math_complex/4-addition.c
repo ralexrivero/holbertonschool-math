@@ -1,8 +1,10 @@
 #include "holberton.h"
 
 /**
- * modulus - returns the modulus
- * @c: the complex
+ * addition - returns the modulus
+ * @c1: the complex 1
+ * @c2: the complex 2
+ * @c3: the complex 3
  * Return: the modulus of complex
  */
 
