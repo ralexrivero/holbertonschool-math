@@ -1,5 +1,4 @@
 #include "holberton.h"
-
 /**
  * modulus - returns the modulus
  * @c: the complex
@@ -8,5 +7,7 @@
 
 double modulus(complex c)
 {
+	double module = sqrt(pow(c.re, 2) + pow(c.im, 2));
 
+	return (module);
 }

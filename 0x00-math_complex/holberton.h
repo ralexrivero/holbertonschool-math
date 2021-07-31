@@ -1,6 +1,7 @@
-#ifndef HBTN_H
-#define HBTN_H
+#ifndef HOLBERTON_H
+#define HOLBERTON_H
 #include <stdio.h>
+#include <stdlib.h>
 #include <math.h>
 #include <stdarg.h>
 
